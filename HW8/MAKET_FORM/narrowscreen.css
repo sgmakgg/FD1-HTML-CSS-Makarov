@@ -1,0 +1,18 @@
+@media all and (max-width: 50em){
+    .textForm div:first-of-type{
+        float:none;
+    }
+    .textForm div:last-of-type{
+        margin-left: 0px;
+    }
+    .listForm div:first-of-type{
+        float:none;
+    }
+    .listForm div:last-of-type{
+        margin-left: 0px;
+    }
+
+    .radioForm div:not(:last-child){
+        float:none; 
+    }
+}

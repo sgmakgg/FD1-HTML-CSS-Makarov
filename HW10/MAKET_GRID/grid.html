@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="styles/phone.css" type="text/css">
+    <style>
+        @media all and (max-width: 40em) {
+            p{
+                margin-top: 20px;
+                padding: 0 0 0 0;
+            }
+
+            img{
+                float: none;
+                margin: 0;
+                width: 100%;
+            }
+
+            h1{
+                vertical-align: top;
+                padding-top: 0;
+            }
+
+            .gridBlocks{
+                display: grid;
+                grid-template-columns: 1fr; grid-template-rows: 1fr 50px;
+                grid-template-areas: 
+                'main_column'
+                'menu'
+            }
+
+            .head, .footer{
+                display: none;
+            }
+
+            .menu{
+                flex: 1 1;
+                float: none;
+                background-color: white;
+                order: 2;
+            }
+
+            .menu li{
+                display:inline;
+                margin-right: 5px;
+            }
+
+            .menu ul{
+                text-align: left;
+                vertical-align:baseline;
+                padding-inline-start: 0;
+            }
+
+            .menu h2{
+                text-align: left;
+            }
+
+            .main_column{
+                flex: 1 1;
+                order: 1;
+                background-image: none;
+                text-align: start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gridBlocks">
+        <div class="head">
+            ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!
+        </div>
+
+        <div class="menu">
+            <h2>Виды спорта:</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Конькобежный спорт</a>
+                        </li>
+                        <li>
+                            <a href="#">Биатлон</a>
+                        </li>
+                        <li>
+                            <a href="#">Футбол</a>
+                        </li>
+                        <li>
+                            <a href="#">Стрельба по муравьям</a>
+                        </li>
+                        <li>
+                            <a href="#">Прыжки с жирафа</a>
+                        </li>
+                        <li>
+                            <a href="#">Гонки на ежиках</a>
+                        </li>
+                    </ul>
+        </div>
+        <div class="main_column">
+            <h1> ФУТБОЛ </h1>
+            <img src="img/people.jpg" alt="football's team">
+            <p> Полное англоязычное название игры, &laquo;association football&raquo; (&laquo;футбол по правилам Ассоциации&raquo;), было выбрано после создания английской Футбольной ассоциации в 1863 году, чтобы отличать эту игру от других разновидностей футбола, существовавших в то время, например регби-футбол (&laquo;rugby football&raquo;, &laquo;футбол по правилам Школы Рагби&raquo;), где была разрешена игра руками. Со временем длинные названия вариантов игры стали сокращаться в повседневной речи и печати. Сначала в Англии было распространено сокращение «assoc.», затем в 1880-х годах от него образовался термин &laquo;соккер&raquo; (англ. soccer) путём добавления к сокращению &laquo;-soc-&raquo; суффикса &laquo;-er&raquo; на оксфордский манер[en] (по аналогии регби-футбол сокращённо назывался «раггер» (англ. rugger))[4]. В периодике термин &laquo;соккер&raquo; используется по крайней мере с 1892 года[5]. Согласно Оксфордскому словарю английского языка, самое раннее использование слова «soccer» в письменном языке зафиксировано в 1889 году в письме английского поэта Эрнеста Доусона (хотя он пишет его как socca, предположительно, потому что у него ещё не было стандартной письменной формы)[6].
+            
+                В наши дни название «соккер» распространено в ряде англоязычных стран, где исторически продолжают пользоваться популярностью другие разновидности футбола. Например, в Австралии и Новой Зеландии футболом исторически называют австралийский футбол или регбилиг. В Ирландии термин «футбол» относится к гэльскому футболу, поэтому «соккер» употребляется в прессе[7][8]. В ЮАР игра в большинстве известна как &laquo;соккер&raquo;, что выразилось в названии чемпионата ЮАР, &laquo;Премьер соккер лига&raquo;, и стадиона &laquo;Соккер Сити&raquo;, на котором проходил финал ЧМ-2010. В США и Канаде употребляется термин &laquo;соккер&raquo;, так как футболом называют американский футбол и канадский футбол. В Англии название «соккер» устарело и новые поколения болельщиков теперь считают его пренебрежительным.
+            </p>
+        </div>
+        <div class="footer">
+            ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars</title>
+    <style>
+        
+        div{
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+
+        a::before{
+            content: url('img/star0.png');
+        }
+
+        a:hover::before{
+            content: url('img/star1.png');
+        }
+        
+        /* Алексей, а есть способ просто тильде реверс сделать? "a:hover ~ a::before" - чтобы не последующие элементы были, а предыдущие*/
+        div > a:hover ~ a::before{
+            content: url('img/star1.png');
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </div>
+
+</body>
+</html>

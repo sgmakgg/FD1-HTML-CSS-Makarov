@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="widescreen.css">
+    <link rel="stylesheet" href="narrowscreen.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <form method="post" action="http://fe.it-academy.by/TestForm.php">
+        <div class="textForm">
+            <div>Название статьи:</div>
+            <div>
+                <input type="text" name="articleName">
+            </div>
+        </div>
+                
+        <div class="listForm">
+            <div>Рубрика:</div>
+            <div>
+                <select name="articleType">
+                    <option value=1>Программирование</option>
+                    <option value=2>Археология</option>
+                    <option value=3>Астрономия</option>
+                </select>
+            </div>
+        </div>        
+        
+        <div class="radioForm">                  
+            <div>Публикация:</div>
+            <div><input type="radio" name="answer" value=1> На сайте</div>
+            <div><input type="radio" name="answer" value=2> В журнале</div>
+            <div><input type="radio" name="answer" value=3> На сайте и в журнале</div>
+        </div>
+
+        <div>Разрешить комментарии <input type="checkbox" name="checkbox" checked></div>
+        <div>Текст статьи:</div> 
+        <textarea style="width: 100%;" name="text" id="" cols="auto" rows="3"></textarea>
+        <input type="submit" value="Опубликовать">
+    </form>
+</body>
+</html>

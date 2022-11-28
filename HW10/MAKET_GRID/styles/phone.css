@@ -1,0 +1,54 @@
+@media all and (max-width: 40em) {
+    p{
+        margin-top: 20px;
+        padding: 0 0 0 0;
+    }
+
+    img{
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    h1{
+        vertical-align: top;
+        padding-top: 0;
+    }
+
+    .head, .footer{
+        display: none;
+    }
+
+    .flexBlocks{
+        flex-direction: column;
+    }
+
+    .menu{
+        flex: 1 1;
+        float: none;
+        background-color: white;
+        order: 2;
+    }
+
+    .menu li{
+        display:inline;
+        margin-right: 5px;
+    }
+
+    .menu ul{
+        text-align: left;
+        vertical-align:baseline;
+        padding-inline-start: 0;
+    }
+
+    .menu h2{
+        text-align: left;
+    }
+
+    .main_column{
+        flex: 1 1;
+        order: 1;
+        background-image: none;
+        text-align: start;
+    }
+}

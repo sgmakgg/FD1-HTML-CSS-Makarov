@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+        
+        .main{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .pets, .pets span{
+            color: red; 
+            font-size: 200px;
+            transition-duration: 2s; 
+            transition-property: background-color;
+            transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+        }
+
+        .main:hover .pets{
+            background-color: black;  
+        }
+
+        .main:hover .pets span{
+            color: white;
+        }
+
+        @keyframes secondPicture{
+            from{color: darkred; background-color: yellowgreen;}
+            65%{color: greenyellow; background-color: darkred;}
+            to{color: white; background-color: black;}
+        }
+
+        .cruelty, .cruelty span{
+            color: red; 
+            font-size: 200px;
+        }
+
+        .main:hover .cruelty{
+            animation: secondPicture 7s infinite;  
+        }
+
+        .main:hover .cruelty span{
+            animation: secondPicture 7s infinite;
+        }
+
+        @keyframes emotions1{
+            from{color: red;}
+            to{color: white;}
+        }
+
+        @keyframes emotions2{
+            from{color: white; background-color: white;}
+            to{color: yellowgreen; background-color: black; z-index: 2;}
+        }
+
+        @keyframes emotions3{
+            from{color: white; background-color: black;}
+            to{color: yellowgreen; background-color: chocolate; z-index: 3;}
+        }
+
+        .emotions{
+            position: relative;
+        }
+        .emotions .first{
+            position: absolute;
+            color: red;
+            font-size: 200px;
+            z-index: 1;
+        }
+
+        .emotions .second, .third{
+            position: absolute;
+            color: white;
+            font-size: 200px;
+        }
+
+        .main:hover .emotions span.first{
+            background-color: aqua;
+            animation: emotions1 1s infinite;
+        }
+
+        .main:hover .emotions span.second{
+            background-color: black;
+            animation: emotions2 6s infinite;
+        }
+        .main:hover .emotions span.third{
+            background-color: black;
+            animation: emotions3 12s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="pets">
+            <span class="material-symbols-outlined">
+                pets
+            </span>
+        </div>
+        <div class="cruelty">
+            <span class="material-symbols-outlined">
+                cruelty_free
+            </span>
+        </div>
+        <div class="emotions">
+            <span class="material-symbols-outlined first">
+                sentiment_extremely_dissatisfied
+            </span>
+            <span class="material-symbols-outlined second">
+                sentiment_satisfied
+            </span>
+            <span class="material-symbols-outlined third">
+                sentiment_very_satisfied
+            </span>
+        </div>   
+    </div>
+</body>
+</html>

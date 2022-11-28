@@ -1,0 +1,30 @@
+.textForm div:first-of-type{
+    width: 200px; 
+    float:left
+}
+.textForm div:last-of-type{
+    margin-left: 200px;
+}
+
+.textForm input{
+    width: 100%;
+}
+
+.listForm div:first-of-type{
+    width: 200px; 
+    float:left;
+}
+.listForm div:last-of-type{
+    margin-left: 200px;
+}
+
+.radioForm div:first-of-type{
+    width: 200px; 
+}
+.radioForm div:not(:last-child){
+    float:left; 
+}
+
+textarea{
+    width: 100%;
+}

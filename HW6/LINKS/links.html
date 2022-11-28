@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a:hover{color:red;}
+
+        div.first_way a:not(:last-child){
+            border-right: 2px solid red;
+            padding: 0.4em 0.3em 0.4em 0;
+        }
+    
+        div.second_way p{display: inline;}
+        div.second_way p span:before{ 
+            font-size: 2.5em;
+            vertical-align: middle;
+            content: attr(separator);
+            color: red;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        div.third_way div{display: inline;}
+        div.third_way div:not(:last-of-type){border-right: solid red 2px;}
+        div.third_way div{
+            padding: 0.4em 0.3em 0.4em 0;
+        }
+            
+    </style>
+</head>
+<body>
+    <!--
+    Тег "a" строчный, разделитель "border-right", честно говоря, не знаю какие минусы. самый короткий способ
+    -->
+    <div class="first_way">
+        <a href="#">First link</a>
+        <a href="#">Second link</a>
+        <a href="#">Third link</a>
+        <a href="#">Fourth link</a>
+        <a href="#">Fifth link</a>
+    </div>
+    <p></p>
+    
+    <!--
+    Использована команда display: inline для блjчного тега p (минус - изменение стандартного поведения тега, 
+    псевдоэлементы не поддерживаются старыми браузерами)
+    -->
+    <div class="second_way">
+        <p><a href="#">First link</a><span separator ="&#448"></span></p>
+        <p><a href="#">Second link</a><span separator ="&#448"></span></p>
+        <p><a href="#">Third link</a><span separator ="&#448"></span></p>
+        <p><a href="#">Fourth link</a><span separator ="&#448"></span></p>
+        <p><a href="#">Fifth link</a><span></span></p>
+    </div>
+    <p></p>
+    <!--
+    с помощью div, изменение стандартного поведения тега div на display:inline
+    -->
+    <div class="third_way">
+            <div><a href="#">First link</a></div>
+            <div><a href="#">Second link</a></div>
+            <div><a href="#">Third link</a></div>
+            <div><a href="#">Fourth link</a></div>
+            <div><a href="#">Fifth link</a></div>
+        </div>
+    </div>
+</body>
+</html>

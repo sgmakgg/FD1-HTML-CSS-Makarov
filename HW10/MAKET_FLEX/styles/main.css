@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+p{
+    padding: 0 20px 20px 20px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    font: bold 20px Arial;
+    margin-top: 0px;
+    padding-top: 0.67em;
+}
+
+.head{
+    background-color: #add8e6;
+    text-align: center;
+    font: bold 20px Arial;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #add8e6;
+    text-align: center;
+    font: bold 20px Arial;
+    padding: 20px;
+    clear: both;
+}
+
+.flexBlocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.menu{
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: left;
+    vertical-align: top;
+    background-color: #f0e68c;
+}
+
+.main_column{
+    flex: 10 10 1fr;
+    text-align: justify;
+    font: 20px Arial;
+    background: url('/img/ball.gif') repeat-y top right;
+}
+
+img{
+    float: left; 
+    margin: 0 20px 0 20px;
+}

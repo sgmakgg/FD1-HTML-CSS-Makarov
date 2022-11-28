@@ -1,0 +1,63 @@
+.head{
+    background-color: #add8e6;
+    text-align: center;
+    font: bold 20px Arial;
+    padding: 20px;
+}
+
+.foot{
+    background-color: #add8e6;
+    text-align: center;
+    font: bold 20px Arial;
+    padding: 20px;
+    clear: both;
+}
+
+.menu{
+    width: 250px;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+}
+
+.main_column{
+    text-align: justify;
+    font: 20px Arial;
+    margin-left: 250px;
+}
+
+.main_column p{
+    padding-left: 10px; margin: 0px;
+}
+
+.yellow_block{
+    background: url('/img/yellow_block.gif') top repeat-y;
+}
+
+.white_block{
+    background: url('/img/white_block.gif') 250px top repeat-y;
+}
+
+.balls{
+    background: url('/img/ball.gif') repeat-y top right;
+}
+
+.hangingBlock{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 1px solid green;
+    background-color: greenyellow;
+}
+
+img{
+    float: left; 
+    margin: 0 20px 0 20px;
+}
+
+h1{
+    text-align: center;
+    font: bold 20px Arial;
+    margin-top: 0px;
+    padding-top: 0.67em;
+}
