@@ -1,10 +1,14 @@
 //Navbar
-@import 'menu', 'cta';
+@import 'menu', 'cta', 'header';
 
 body{
+  margin: 0;
+}
+
+.homepage{
   position: relative;
-  width: auto;
   height: 8765px;
+
   background: #FFFFFF;
 }
 

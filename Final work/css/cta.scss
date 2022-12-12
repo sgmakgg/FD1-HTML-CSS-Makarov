@@ -28,6 +28,7 @@
         order: 0;
         align-self: flex-start;
         flex-grow: 0;
+
           span{
             width: 127px;
             height: 52px;
@@ -49,6 +50,11 @@
             order: 0;
             flex-grow: 0;
           }
+      }
+
+      .menu_button:hover{
+        transition-duration: 1s;
+        background: #E5E5E5;
       }
 
       .account{
