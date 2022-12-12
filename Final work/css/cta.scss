@@ -54,7 +54,11 @@
 
   .menu_button:hover {
     transition-duration: 1s;
-    background: #E5E5E5;
+    background: none;
+    border: 1px solid #F75E05;
+      span{
+        color: #F75E05;
+      }
   }
 
   .account {
