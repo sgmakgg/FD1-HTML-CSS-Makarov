@@ -1,0 +1,67 @@
+.menu{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 40px;
+
+  position: absolute;
+  width: 432px;
+  height: 26px;
+  left: 190px;
+  top: calc(50% - 26px/2);
+  div{
+    /* base/bold */
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+
+    /* gray/800 */
+    color: #424551;
+
+    flex: none;
+    align-self: flex-start;
+    flex-grow: 0;
+  }
+  div:nth-child(1){
+    width: 67px;
+    height: 26px;
+
+    order: 0;
+  }
+
+  div:nth-child(2){
+
+    width: 58px;
+    height: 26px;
+
+    order: 1;
+  }
+
+  div:nth-child(3){
+    width: 49px;
+    height: 26px;
+
+    order: 2;
+  }
+
+  div:nth-child(4){
+    width: 33px;
+    height: 26px;
+
+    order: 3;
+  }
+
+  div:nth-child(5){
+    width: 65px;
+    height: 26px;
+
+    order: 4;
+  }
+}
