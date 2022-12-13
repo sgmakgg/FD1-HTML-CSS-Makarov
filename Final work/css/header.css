@@ -164,4 +164,104 @@
   left: 1020px;
   top: 200px; }
 
+.statistic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 66px;
+  position: absolute;
+  width: 1231px;
+  height: 60px;
+  left: 345px;
+  top: 940px; }
+  .statistic div:nth-child(odd) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+    flex: none;
+    flex-grow: 0; }
+    .statistic div:nth-child(odd) div:nth-child(1) {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 46px;
+      line-height: 130%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #1E212C;
+      flex: none;
+      flex-grow: 0; }
+    .statistic div:nth-child(odd) div:nth-child(2) {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      display: flex;
+      align-items: center;
+      color: #1E212C; }
+  .statistic div img {
+    width: 8px;
+    height: 8px;
+    flex: none;
+    flex-grow: 0; }
+  .statistic:nth-child(1) {
+    width: 257px;
+    height: 60px;
+    order: 0; }
+    .statistic:nth-child(1) div:nth-child(1) {
+      width: 107px;
+      height: 60px;
+      order: 0; }
+    .statistic:nth-child(1) div:nth-child(2) {
+      width: 138px;
+      height: 26px;
+      order: 1; }
+  .statistic div img:nth-child(1) {
+    order: 1; }
+  .statistic:nth-child(3) {
+    width: 201px;
+    height: 60px;
+    order: 2; }
+    .statistic:nth-child(3) div:nth-child(1) {
+      width: 54px;
+      height: 60px;
+      order: 0; }
+    .statistic:nth-child(3) div:nth-child(2) {
+      width: 135px;
+      height: 26px;
+      order: 1; }
+  .statistic div img:nth-child(2) {
+    order: 3; }
+  .statistic:nth-child(5) {
+    width: 177px;
+    height: 60px;
+    order: 4; }
+    .statistic:nth-child(5) div:nth-child(1) {
+      width: 54px;
+      height: 60px;
+      order: 0; }
+    .statistic:nth-child(5) div:nth-child(2) {
+      width: 111px;
+      height: 26px;
+      order: 1; }
+  .statistic div img:nth-child(3) {
+    order: 5; }
+  .statistic:nth-child(7) {
+    width: 176px;
+    height: 60px;
+    order: 6; }
+    .statistic:nth-child(7) div:nth-child(1) {
+      width: 27px;
+      height: 60px;
+      order: 0; }
+    .statistic:nth-child(7) div:nth-child(2) {
+      width: 137px;
+      height: 26px;
+      order: 1; }
+
 /*# sourceMappingURL=header.css.map */
