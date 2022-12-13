@@ -50,6 +50,8 @@
 .statistic:nth-child(7){width:176px;height:60px;-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6}
 .statistic:nth-child(7) div:nth-child(1){width:27px;height:60px;-webkit-box-ordinal-group:1;-ms-flex-order:0;order:0}
 .statistic:nth-child(7) div:nth-child(2){width:137px;height:26px;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
+.background{position:absolute;width:1920px;height:1080px;left:0;top:0}
+.background .shape1{position:absolute;left:9.27%;right:85.73%;top:21.2%;bottom:69.91%;opacity:.7;-webkit-transform:rotate(180deg);transform:rotate(180deg)}
 body{margin:0}
 .homepage{position:relative;height:8765px;background:#fff}
 .navbar{position:absolute;width:1230px;height:52px;left:345px;top:20px}

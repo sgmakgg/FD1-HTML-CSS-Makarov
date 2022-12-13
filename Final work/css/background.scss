@@ -1,0 +1,63 @@
+.background{
+  position: absolute;
+  height: 1080px;
+  left: 0;
+  top: 0;
+    .shape1{
+        position: absolute;
+        left: 82px;
+        top: 133px;
+
+        opacity: 0.9;
+        transform: rotate(0deg);
+    }
+
+    .shape2{
+      position: absolute;
+      width: 88px;
+      height: 47px;
+      left: 782px;
+      top: 487px;
+
+      opacity: 0.9;
+    }
+
+    .shape3{
+      position: absolute;
+      width: 61px;
+      height: 61px;
+      left: 733px;
+      top: 758px;
+
+      opacity: 0.9;
+    }
+
+  .shape4{
+    position: absolute;
+    left: 1668px;
+    top: -15px;
+
+    opacity: 0.9;
+    transform: rotate(135deg);
+  }
+
+  .shape5{
+    position: absolute;
+    width: 167px;
+    height: 137px;
+    left: 1735px;
+    top: 749px;
+
+    opacity: 1.2;
+  }
+
+  .shape6{
+    position: absolute;
+    width: 284px;
+    height: 284px;
+    left: 0;
+    top: 896px;
+
+    opacity: 0.8;
+  }
+}
