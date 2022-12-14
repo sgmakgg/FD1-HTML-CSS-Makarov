@@ -1,3 +1,5 @@
+@import 'variables';
+
 .cta {
   display: flex;
   flex-direction: row;
@@ -33,7 +35,7 @@
       width: 127px;
       height: 52px;
 
-      font-family: 'Lato', sans-serif;
+      font-family: $family;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -82,7 +84,7 @@
 
       /* base/bold */
 
-      font-family: 'Lato', sans-serif;
+      font-family: $family;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;

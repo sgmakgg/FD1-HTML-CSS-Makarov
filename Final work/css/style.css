@@ -16,21 +16,20 @@
   height: 26px;
   left: 190px;
   top: calc(50% - 26px / 2); }
+  .menu a {
+    text-decoration: none; }
   .menu div {
-    /* base/bold */
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 160%;
-    /* identical to box height, or 26px */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    /* gray/800 */
     color: #424551;
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -119,7 +118,7 @@
     .cta .menu_button span {
       width: 127px;
       height: 52px;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -177,7 +176,7 @@
       width: 115px;
       height: 26px;
       /* base/bold */
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -246,7 +245,7 @@
   height: 21px;
   left: 413px;
   top: 244px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -265,7 +264,7 @@
   height: 249px;
   left: 344px;
   top: 320px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 64px;
@@ -335,7 +334,7 @@
   .button1 span {
     width: 68px;
     height: 52px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -394,7 +393,7 @@
   .button2 span {
     width: 121px;
     height: 52px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -461,7 +460,7 @@
     -ms-flex-positive: 0;
         flex-grow: 0; }
     .statistic div:nth-child(odd) div:nth-child(1) {
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 900;
       font-size: 46px;
@@ -480,7 +479,7 @@
       -ms-flex-positive: 0;
           flex-grow: 0; }
     .statistic div:nth-child(odd) div:nth-child(2) {
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -686,7 +685,7 @@
     .about .heading div:nth-child(1) {
       width: auto;
       height: 24px;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -705,7 +704,7 @@
     .about .heading div:nth-child(2) {
       width: auto;
       height: 60px;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 900;
       font-size: 46px;
@@ -752,7 +751,7 @@
     width: 390px;
     height: 52px;
     padding-left: 60px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -790,7 +789,7 @@
   .about_button span {
     width: 127px;
     height: 42px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -821,8 +820,201 @@
   .about_button:hover span {
     color: #F75E05; }
 
+.courseshp {
+  position: absolute;
+  width: 1230px;
+  height: 854px;
+  left: 345px;
+  top: 2000px; }
+
+.headinghp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0;
+  gap: 8px;
+  width: 367px;
+  height: 92px;
+  left: 345px;
+  top: 2000px; }
+  .headinghp div {
+    width: 153px;
+    height: 14px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0; }
+  .headinghp div:nth-child(2) {
+    width: 367px;
+    height: 25px;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 130%;
+    text-transform: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+
+.courseshp_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 40px;
+  gap: 10px;
+  position: absolute;
+  width: 203px;
+  height: 52px;
+  left: 1027px;
+  top: 0;
+  background: none;
+  border-radius: 4px;
+  border: 1px solid #F75E05;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -ms-flex-positive: 0;
+      flex-grow: 0; }
+  .courseshp_button span {
+    width: 120px;
+    height: 52px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #F75E05;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0; }
+
+.courseshp_button:hover {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border: 1px solid #F75E05; }
+  .courseshp_button:hover span {
+    color: #FFFFFF; }
+
+.cards {
+  width: 1230px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 600px 1fr 600px;
+  grid-template-rows: 215px 1fr 215px 1fr 215px; }
+
+.card {
+  width: 600px;
+  height: 214px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #FFFFFF;
+  border: 1px solid #E5E8ED;
+  -webkit-box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+          box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  border-radius: 4px; }
+
+.card:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1; }
+
+.card:nth-child(2) {
+  grid-column: 3;
+  grid-row: 1; }
+
+.card:nth-child(3) {
+  grid-column: 1;
+  grid-row: 3; }
+
+.card:nth-child(4) {
+  grid-column: 3;
+  grid-row: 3; }
+
+.card:nth-child(5) {
+  grid-column: 1;
+  grid-row: 5; }
+
+.card:nth-child(6) {
+  grid-column: 3;
+  grid-row: 5; }
+
+.card_cont {
+  margin: 32px 32px 32px 32px; }
+  .card_cont div {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 21px 0 21px 0;
+    color: #1E212C; }
+  .card_cont div:nth-child(3) {
+    font-weight: 400;
+    font-size: 18px;
+    color: #787A80; }
+    .card_cont div:nth-child(3) span {
+      font-size: 18px;
+      color: #FF4242; }
+
+.card_pic {
+  height: 214px;
+  border-radius: 4px;
+  border: none; }
+  .card_pic img {
+    border-radius: 4px;
+    height: 214px; }
+
 body {
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden; }
 
 .homepage {
   position: relative;

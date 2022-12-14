@@ -1,3 +1,5 @@
+@import 'variables';
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -11,19 +13,20 @@
   left: 190px;
   top: calc(50% - 26px / 2);
 
+  & a{
+    text-decoration: none;
+  }
+
   div {
-    /* base/bold */
-    font-family: 'Lato', sans-serif;
+    font-family: $family;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 160%;
 
-    /* identical to box height, or 26px */
     display: flex;
     align-items: center;
 
-    /* gray/800 */
     color: #424551;
 
     flex: none;

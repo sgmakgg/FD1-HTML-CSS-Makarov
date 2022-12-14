@@ -9,17 +9,16 @@
   height: 26px;
   left: 190px;
   top: calc(50% - 26px / 2); }
+  .menu a {
+    text-decoration: none; }
   .menu div {
-    /* base/bold */
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 160%;
-    /* identical to box height, or 26px */
     display: flex;
     align-items: center;
-    /* gray/800 */
     color: #424551;
     flex: none;
     align-self: flex-start;

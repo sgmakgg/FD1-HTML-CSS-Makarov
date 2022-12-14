@@ -1,10 +1,11 @@
-//Navbar
 @import 'menu', 'cta';
 @import 'header', 'background';
-@import 'about';
+@import 'about', 'variables';
+@import 'courseshp';
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .homepage {

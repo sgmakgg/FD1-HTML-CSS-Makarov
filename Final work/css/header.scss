@@ -1,3 +1,5 @@
+@import 'variables';
+
 .header {
   height: 1080px;
   left: 0;
@@ -57,7 +59,7 @@
   left: 413px;
   top: 244px;
 
-  font-family: 'Lato', sans-serif;
+  font-family: $family;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -76,7 +78,7 @@
   left: 344px;
   top: 320px;
 
-  font-family: 'Lato', sans-serif;
+  font-family: $family;
   font-style: normal;
   font-weight: 900;
   font-size: 64px;
@@ -137,7 +139,7 @@
     width: 68px;
     height: 52px;
 
-    font-family: 'Lato', sans-serif;
+    font-family: $family;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -187,7 +189,7 @@
     width: 121px;
     height: 52px;
 
-    font-family: 'Lato', sans-serif;
+    font-family: $family;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -236,7 +238,7 @@
       flex: none;
       flex-grow: 0;
       div:nth-child(1){
-        font-family: 'Lato', sans-serif;
+        font-family: $family;
         font-style: normal;
         font-weight: 900;
         font-size: 46px;
@@ -253,7 +255,7 @@
       }
 
       div:nth-child(2){
-        font-family: 'Lato', sans-serif;
+        font-family: $family;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
