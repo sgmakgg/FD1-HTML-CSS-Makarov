@@ -1,0 +1,160 @@
+@import 'variables';
+
+.benefits{
+  position: absolute;
+  width: 1230px;
+  height: 698px;
+  left: 345px;
+  top: 3034px;
+
+  display: grid;
+  grid-template-columns: 307px 307px 307px 307px;
+  grid-template-rows: 24px 60px 70px 46px 440px;
+  grid-template-areas:
+          '.       text1   text1   .'
+          '.       text2   text2   .'
+          '.       .       .       .'
+          'button1 button2 button3 button4'
+          'tabB     tabB     imageb   imageb';
+  justify-items: stretch;
+  align-items: center;
+
+  & div{
+    font-family: $family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #1E212C;
+
+    grid-area: text1;
+  }
+
+  & img{
+    grid-area: imageb;
+  }
+
+  & div:nth-child(2){
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+
+    color: #1E212C;
+    grid-area: text2;
+  }
+  #button1{
+    grid-area: tabB;
+  }
+  #button2{
+    grid-area: tabB;
+  }
+  #button3{
+    grid-area: tabB;
+  }
+  #button4{
+    grid-area: tabB;
+  }
+}
+
+.benefits_button {
+  align-items: center;
+
+  width: 307px;
+  height: 46px;
+
+
+  border: none;
+  border-radius: 4px;
+  background: none;
+
+  span {
+    width: 140px;
+    height: 26px;
+
+    font-family: $family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: #F75E05;
+  }
+}
+
+.benefits_button:hover {
+  transition-duration: 1s;
+  border: 1px solid #F75E05;
+}
+
+.benefits_button.active {
+  transition-duration: 1s;
+  border: 1px solid #F75E05;
+}
+
+.benefits_button:nth-child(3){
+  grid-area: button1;
+}
+
+.benefits_button:nth-child(4){
+  grid-area: button2;
+}
+
+.benefits_button:nth-child(5){
+  grid-area: button3;
+}
+
+.benefits_button:nth-child(6){
+  grid-area: button4;
+}
+
+.tabcontent{
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+
+  gap: 24px;
+
+  width: 495px;
+  height: 196px;
+
+    div{
+
+    font-family: $family;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+    text-transform: none;
+    color: #1E212C;
+    text-align: justify;
+    flex: none;
+
+    flex-grow: 0;
+    }
+
+    & div:nth-child(1){
+      width: 495px;
+      height: 42px;
+      order: 0;
+    }
+
+    & div:nth-child(2){
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #424551;
+      text-align: justify;
+      
+      width: 495px;
+      height: 130px;
+      order: 1;
+    }
+}

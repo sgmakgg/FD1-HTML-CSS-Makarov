@@ -253,6 +253,75 @@
         </div>
     </div>
 </div>
+<div class="benefits">
+    <div>
+        Our benefits
+    </div>
+    <div>
+        That’s how we do it
+    </div>
+    <button class="benefits_button" onclick="openTab(event, 'button1')" type="button">
+        <span><img src="/img/Star%20(Stroke).svg" alt="star">Experienced Tutors</span>
+    </button>
+    <button class="benefits_button" onclick="openTab(event, 'button2')" type="button">
+        <span><img src="/img/like.svg" alt="like">Feedback & Support</span>
+    </button>
+    <button class="benefits_button" onclick="openTab(event, 'button3')" type="button">
+        <span><img src="/img/Layouts.svg" alt="Layouts">24/7 Online Library</span>
+    </button>
+    <button class="benefits_button" onclick="openTab(event, 'button4')" type="button">
+        <span><img src="/img/Chat.svg" alt="star">Community</span>
+    </button>
+    <div id="button1" class="tabcontent">
+        <div>Only practicing tutors</div>
+        <div>
+            Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse.
+            Morbi mauris cras massa ut dolor quis sociis mollis augue.
+            Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum.
+            Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.
+        </div>
+    </div>
+
+    <div id="button2" class="tabcontent">
+        <div>Feedback & Support</div>
+        <div>
+            Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse.
+        </div>
+    </div>
+
+    <div id="button3" class="tabcontent">
+        <div>24/7 Online Library</div>
+        <div>
+            Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum.
+            Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.
+        </div>
+    </div>
+
+    <div id="button4" class="tabcontent">
+        <div>Community</div>
+        <div>
+            Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse.
+            Morbi mauris cras massa ut dolor quis sociis mollis augue.
+            Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum.
+        </div>
+    </div>
+    <script>
+        function openTab(evt, buttonName) {
+            let i, content, benefits_button;
+            content = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < content.length; i++) {
+                content[i].style.visibility = "hidden";
+            }
+            benefits_button = document.getElementsByClassName("benefits_button");
+            for (i = 0; i < benefits_button.length; i++) {
+                benefits_button[i].className = benefits_button[i].className.replace(" active", "");
+            }
+            document.getElementById(buttonName).style.visibility = "visible";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <img src="/img/illustration_benefits.svg" alt="illustration">
+</div>
 <div class="navbar">
     <div class="logo">
         <img alt="Logo" src="/img/logo.svg">

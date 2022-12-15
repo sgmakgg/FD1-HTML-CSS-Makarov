@@ -10,7 +10,8 @@
   left: 190px;
   top: calc(50% - 26px / 2); }
   .menu a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #424551; }
   .menu div {
     font-family: "Lato", sans-serif;
     font-style: normal;
