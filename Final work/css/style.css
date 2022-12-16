@@ -1167,8 +1167,7 @@ body {
   max-width: 1920px;
   width: 100%;
   min-height: 8765px;
-  height: 100%;
-  border: 2px solid blue; }
+  height: 100%; }
 
 .homepage {
   position: absolute;
