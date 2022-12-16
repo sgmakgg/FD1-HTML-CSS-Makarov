@@ -1,6 +1,7 @@
 @import 'variables';
 
 .header {
+  width: 100%;
   height: 1080px;
   left: 0;
   top: 0;
@@ -11,9 +12,9 @@
 
 .play_btn {
   position: absolute;
-  width: 84px;
-  height: 84px;
-  left: 329px;
+  width: percentage(150px/1920px);
+  height: percentage(150px/1920px);
+  left: 300px;
   top: 212px;
   border-style: hidden;
   background-color: transparent;
@@ -23,9 +24,9 @@
 .play_img {
   visibility: visible;
   position: absolute;
-  width: 84px;
-  height: 84px;
-  left: 329px;
+  width: percentage(150px/1920px);
+  height: percentage(150px/1920px);
+  left: 300px;
   top: 212px;
   border-style: none;
   background: none;
@@ -34,9 +35,9 @@
 .play_img_hover {
   visibility: hidden;
   position: absolute;
-  width: 84px;
-  height: 84px;
-  left: 331px;
+  width: percentage(150px/1920px);
+  height: percentage(150px/1920px);
+  left: 302px;
   top: 214px;
   border-style: none;
   background: none;
@@ -54,15 +55,15 @@
 
 .showreel {
   position: absolute;
-  width: 88px;
-  height: 21px;
-  left: 413px;
+  /*width: 88px;
+  height: 21px;*/
+  left: 420px;
   top: 244px;
 
   font-family: $family;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.72vw;
   line-height: 150%;
 
   display: flex;
@@ -73,15 +74,15 @@
 
 .main_text {
   position: absolute;
-  width: 496px;
-  height: 249px;
+  width: percentage(496px/1920px);
+  height: percentage(249px/1920px);
   left: 344px;
-  top: 320px;
+  top: 390px;
 
   font-family: $family;
   font-style: normal;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 3.33vw;
   line-height: 130%;
 
   display: flex;
@@ -99,7 +100,7 @@
   gap: 24px;
 
   position: absolute;
-  width: 373px;
+  width: percentage(373px/1920px);
   height: 52px;
   left: 344px;
   top: 629px;
@@ -115,8 +116,8 @@
   padding: 0 40px;
   gap: 10px;
 
-  width: 148px;
-  height: 52px;
+  width: percentage(200px/373px);
+  height: 100%;
 
   border-radius: 4px;
   border: 1px solid #F75E05;
@@ -136,13 +137,13 @@
   }
 
   span {
-    width: 68px;
-    height: 52px;
+    width: 100%;
+    height: 100%;
 
     font-family: $family;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.65vw;
     line-height: 52px;
     color: #F75E05;
 
@@ -150,6 +151,8 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
 
     flex: none;
     order: 0;
@@ -164,8 +167,8 @@
   padding: 0 40px;
   gap: 10px;
 
-  width: 201px;
-  height: 52px;
+  width: percentage(245px/373px);
+  height: 100%;
 
   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
   border-radius: 4px;
@@ -186,19 +189,21 @@
   }
 
   span {
-    width: 121px;
-    height: 52px;
+    width: 100%;
+    height: 100%;
 
     font-family: $family;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 0.7vw;
     line-height: 52px;
 
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     letter-spacing: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
 
     color: #FFFFFF;
 
@@ -210,10 +215,10 @@
 
 .girl_ill {
   position: absolute;
-  width: 602px;
-  height: 551px;
-  left: 1020px;
-  top: 200px;
+  width: 26vw;
+  height: 26vw;
+  right: 150px;
+  top: 240px;
 }
 
 .statistic{
@@ -224,9 +229,9 @@
   gap: 66px;
 
   position: absolute;
-  width: 1231px;
+  width: percentage(1231px/1920px);
   height: 60px;
-  left: 345px;
+  left: 17.97vw;
   top: 940px;
     div:nth-child(odd){
       display: flex;
@@ -241,7 +246,7 @@
         font-family: $family;
         font-style: normal;
         font-weight: 900;
-        font-size: 46px;
+        font-size: 2.4vw;
         line-height: 130%;
 
         display: flex;
@@ -258,7 +263,7 @@
         font-family: $family;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 0.8vw;
         line-height: 160%;
 
         display: flex;
@@ -269,8 +274,8 @@
     }
 
     div img{
-      width: 8px;
-      height: 8px;
+      width: 0.4vw;
+      height: 0.4vw;
 
       flex: none;
       flex-grow: 0;

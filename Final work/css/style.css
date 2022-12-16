@@ -1,3 +1,16 @@
+.navbar {
+  position: absolute;
+  width: 64.0625%;
+  height: 0.5932686823%;
+  left: 17.97vw;
+  top: 20px; }
+
+.logo {
+  position: absolute;
+  width: 10.5691056911%;
+  left: 0;
+  top: calc(50% - 22px / 2); }
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,9 +25,8 @@
   padding: 0;
   gap: 40px;
   position: absolute;
-  width: 432px;
-  height: 26px;
-  left: 190px;
+  width: 35.1219512195%;
+  left: 9.9vw;
   top: calc(50% - 26px / 2); }
   .menu a {
     text-decoration: none;
@@ -23,7 +35,7 @@
     font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 0.8vw;
     line-height: 160%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -40,32 +52,27 @@
     -ms-flex-positive: 0;
         flex-grow: 0; }
   .menu div:nth-child(1) {
-    width: 67px;
-    height: 26px;
+    width: 15.5092592593%;
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0; }
   .menu div:nth-child(2) {
-    width: 58px;
-    height: 26px;
+    width: 13.4259259259%;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1; }
   .menu div:nth-child(3) {
-    width: 49px;
-    height: 26px;
+    width: 11.3425925926%;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2; }
   .menu div:nth-child(4) {
-    width: 33px;
-    height: 26px;
+    width: 7.6388888889%;
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3; }
   .menu div:nth-child(5) {
-    width: 65px;
-    height: 26px;
+    width: 15.0462962963%;
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4; }
@@ -84,8 +91,8 @@
   padding: 0;
   gap: 36px;
   position: absolute;
-  width: 386px;
-  height: 52px;
+  width: 31.3821138211%;
+  height: 100%;
   right: 0;
   top: calc(50% - 52px / 2); }
   .cta .menu_button {
@@ -101,8 +108,8 @@
             align-items: center;
     padding: 0 40px;
     gap: 10px;
-    width: 207px;
-    height: 52px;
+    width: 53.6269430052%;
+    height: 100%;
     background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
     border-radius: 4px;
     border-style: none;
@@ -112,18 +119,17 @@
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    -ms-flex-item-align: center;
+        align-self: center;
     -ms-flex-positive: 0;
         flex-grow: 0; }
     .cta .menu_button span {
-      width: 127px;
-      height: 52px;
+      width: 100%;
+      height: 100%;
       font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
-      line-height: 52px;
+      font-size: 0.76vw;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -161,8 +167,8 @@
             align-items: center;
     padding: 0;
     gap: 8px;
-    width: 143px;
-    height: 26px;
+    width: 37.0466321244%;
+    height: 50%;
     -webkit-box-flex: 0;
         -ms-flex: none;
             flex: none;
@@ -174,13 +180,12 @@
     -ms-flex-positive: 0;
         flex-grow: 0; }
     .cta .account a {
-      width: 115px;
-      height: 26px;
-      /* base/bold */
+      width: 100%;
+      height: 100%;
       font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 0.8vw;
       line-height: 160%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -199,6 +204,7 @@
           flex-grow: 0; }
 
 .header {
+  width: 100%;
   height: 1080px;
   left: 0;
   top: 0;
@@ -207,9 +213,9 @@
 
 .play_btn {
   position: absolute;
-  width: 84px;
-  height: 84px;
-  left: 329px;
+  width: 7.8125%;
+  height: 7.8125%;
+  left: 300px;
   top: 212px;
   border-style: hidden;
   background-color: transparent;
@@ -218,9 +224,9 @@
 .play_img {
   visibility: visible;
   position: absolute;
-  width: 84px;
-  height: 84px;
-  left: 329px;
+  width: 7.8125%;
+  height: 7.8125%;
+  left: 300px;
   top: 212px;
   border-style: none;
   background: none; }
@@ -228,9 +234,9 @@
 .play_img_hover {
   visibility: hidden;
   position: absolute;
-  width: 84px;
-  height: 84px;
-  left: 331px;
+  width: 7.8125%;
+  height: 7.8125%;
+  left: 302px;
   top: 214px;
   border-style: none;
   background: none; }
@@ -242,14 +248,14 @@
 
 .showreel {
   position: absolute;
-  width: 88px;
-  height: 21px;
-  left: 413px;
+  /*width: 88px;
+  height: 21px;*/
+  left: 420px;
   top: 244px;
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.72vw;
   line-height: 150%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -261,14 +267,14 @@
 
 .main_text {
   position: absolute;
-  width: 496px;
-  height: 249px;
+  width: 25.8333333333%;
+  height: 12.96875%;
   left: 344px;
-  top: 320px;
+  top: 390px;
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 3.33vw;
   line-height: 130%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,7 +299,7 @@
   padding: 0;
   gap: 24px;
   position: absolute;
-  width: 373px;
+  width: 19.4270833333%;
   height: 52px;
   left: 344px;
   top: 629px; }
@@ -313,8 +319,8 @@
           align-items: center;
   padding: 0 40px;
   gap: 10px;
-  width: 148px;
-  height: 52px;
+  width: 53.6193029491%;
+  height: 100%;
   border-radius: 4px;
   border: 1px solid #F75E05;
   background: none;
@@ -333,12 +339,12 @@
     .button1:hover span {
       color: #FFFFFF; }
   .button1 span {
-    width: 68px;
-    height: 52px;
+    width: 100%;
+    height: 100%;
     font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.65vw;
     line-height: 52px;
     color: #F75E05;
     display: -webkit-box;
@@ -349,6 +355,8 @@
             align-items: center;
     text-align: center;
     letter-spacing: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
     -webkit-box-flex: 0;
         -ms-flex: none;
             flex: none;
@@ -371,8 +379,8 @@
           align-items: center;
   padding: 0 40px;
   gap: 10px;
-  width: 201px;
-  height: 52px;
+  width: 65.6836461126%;
+  height: 100%;
   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
   border-radius: 4px;
   border: none;
@@ -392,12 +400,12 @@
     .button2:hover span {
       color: #F75E05; }
   .button2 span {
-    width: 121px;
-    height: 52px;
+    width: 100%;
+    height: 100%;
     font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 0.7vw;
     line-height: 52px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -405,8 +413,10 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center;
+    text-align: justify;
     letter-spacing: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
     color: #FFFFFF;
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -419,10 +429,10 @@
 
 .girl_ill {
   position: absolute;
-  width: 602px;
-  height: 551px;
-  left: 1020px;
-  top: 200px; }
+  width: 26vw;
+  height: 26vw;
+  right: 150px;
+  top: 240px; }
 
 .statistic {
   display: -webkit-box;
@@ -438,9 +448,9 @@
   padding: 0;
   gap: 66px;
   position: absolute;
-  width: 1231px;
+  width: 64.1145833333%;
   height: 60px;
-  left: 345px;
+  left: 17.97vw;
   top: 940px; }
   .statistic div:nth-child(odd) {
     display: -webkit-box;
@@ -464,7 +474,7 @@
       font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 900;
-      font-size: 46px;
+      font-size: 2.4vw;
       line-height: 130%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -483,7 +493,7 @@
       font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 0.8vw;
       line-height: 160%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -493,8 +503,8 @@
               align-items: center;
       color: #1E212C; }
   .statistic div img {
-    width: 8px;
-    height: 8px;
+    width: 0.4vw;
+    height: 0.4vw;
     -webkit-box-flex: 0;
         -ms-flex: none;
             flex: none;
@@ -587,11 +597,14 @@
 
 .background {
   position: absolute;
+  width: 100%;
   height: 1080px;
   left: 0;
   top: 0; }
   .background .shape1 {
     position: absolute;
+    width: 7.8125%;
+    height: 7.8125%;
     left: 82px;
     top: 133px;
     opacity: 0.9;
@@ -599,38 +612,40 @@
             transform: rotate(0deg); }
   .background .shape2 {
     position: absolute;
-    width: 88px;
-    height: 47px;
+    width: 7.8125%;
+    height: 4.1666666667%;
     left: 782px;
     top: 487px;
     opacity: 0.9; }
   .background .shape3 {
     position: absolute;
-    width: 61px;
-    height: 61px;
+    width: 7.8125%;
+    height: 7.8125%;
     left: 733px;
     top: 758px;
     opacity: 0.9; }
   .background .shape4 {
     position: absolute;
-    left: 1668px;
+    width: 7.8125%;
+    height: 7.8125%;
+    right: 50px;
     top: -15px;
     opacity: 0.9;
     -webkit-transform: rotate(135deg);
             transform: rotate(135deg); }
   .background .shape5 {
     position: absolute;
-    width: 167px;
-    height: 137px;
-    left: 1735px;
+    width: 13.0208333333%;
+    height: 13.0208333333%;
+    right: -30px;
     top: 749px;
     opacity: 1.2; }
   .background .shape6 {
     position: absolute;
-    width: 284px;
-    height: 284px;
-    left: 0;
-    top: 896px;
+    width: 15.625%;
+    height: 15.625%;
+    left: -80px;
+    top: 930px;
     opacity: 0.8; }
 
 .background_about {
@@ -1146,27 +1161,19 @@
             order: 1; }
 
 body {
+  position: relative;
   margin: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  max-width: 1920px;
+  width: 100%;
+  min-height: 8765px;
+  height: 100%;
+  border: 2px solid blue; }
 
 .homepage {
-  position: relative;
-  width: 1920px;
-  height: 8765px;
+  position: absolute;
+  width: 100%;
+  height: 1080px;
   background: #FFFFFF; }
-
-.navbar {
-  position: absolute;
-  width: 1230px;
-  height: 52px;
-  left: 345px;
-  top: 20px; }
-
-.logo {
-  position: absolute;
-  width: 130px;
-  height: 22px;
-  left: 0;
-  top: calc(50% - 22px / 2); }
 
 /*# sourceMappingURL=style.css.map */

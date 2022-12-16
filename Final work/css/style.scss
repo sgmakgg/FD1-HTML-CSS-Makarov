@@ -4,30 +4,23 @@
 @import 'courseshp', 'benefits';
 
 body {
+  position: relative;
   margin: 0;
   overflow-x: hidden;
+  //font-size: 100%;
+  max-width: 1920px;
+  width: 100%;
+  min-height: 8765px;
+  height: 100%;
+  border: 2px solid blue;
 }
 
 .homepage {
-  position: relative;
-  width: 1920px;
-  height: 8765px;
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+
 
   background: #FFFFFF;
 }
 
-.navbar {
-  position: absolute;
-  width: 1230px;
-  height: 52px;
-  left: 345px;
-  top: 20px;
-}
-
-.logo {
-  position: absolute;
-  width: 130px;
-  height: 22px;
-  left: 0;
-  top: calc(50% - 22px / 2);
-}
