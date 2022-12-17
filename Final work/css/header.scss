@@ -104,7 +104,6 @@
   height: 52px;
   left: 344px;
   top: 629px;
-
 }
 
 .button1 {
@@ -148,8 +147,10 @@
     color: #F75E05;
 
     display: flex;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
+    align-content: center;
+    justify-content: center;
     letter-spacing: 0.5px;
     margin-left: auto;
     margin-right: auto;
@@ -199,8 +200,10 @@
     line-height: 52px;
 
     display: flex;
+    flex-direction: row;
     align-items: center;
-    text-align: justify;
+    align-content: center;
+    justify-content: center;
     letter-spacing: 0.5px;
     margin-left: auto;
     margin-right: auto;
@@ -221,7 +224,7 @@
   top: 240px;
 }
 
-.statistic{
+.statistic {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -231,141 +234,148 @@
   position: absolute;
   width: percentage(1231px/1920px);
   height: 60px;
-  left: 17.97vw;
+  left: 15vw;
+  right: 17vw;
   top: 940px;
-    div:nth-child(odd){
+
+  div:nth-child(odd) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+
+    flex: none;
+    flex-grow: 0;
+
+    div:nth-child(1) {
+      font-family: $family;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 2.4vw;
+      line-height: 130%;
+
       display: flex;
-      flex-direction: row;
       align-items: center;
-      padding: 0;
-      gap: 12px;
+      text-align: center;
 
-      flex: none;
-      flex-grow: 0;
-      div:nth-child(1){
-        font-family: $family;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 2.4vw;
-        line-height: 130%;
-
-        display: flex;
-        align-items: center;
-        text-align: center;
-        
-        color: #1E212C;
-
-        flex: none;
-        flex-grow: 0;
-      }
-
-      div:nth-child(2){
-        font-family: $family;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 0.8vw;
-        line-height: 160%;
-
-        display: flex;
-        align-items: center;
-
-        color: #1E212C;
-      }
-    }
-
-    div img{
-      width: 0.4vw;
-      height: 0.4vw;
+      color: #1E212C;
 
       flex: none;
       flex-grow: 0;
     }
 
-    &:nth-child(1){
-      width: 257px;
+    div:nth-child(2) {
+      font-family: $family;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.8vw;
+      line-height: 160%;
+
+      display: flex;
+      align-items: center;
+
+      color: #1E212C;
+    }
+  }
+
+  div img {
+    width: 0.4vw;
+    height: 0.4vw;
+
+    flex: none;
+    flex-grow: 0;
+  }
+
+  &:nth-child(1) {
+    width: 257px;
+    height: 60px;
+
+    order: 0;
+
+    div:nth-child(1) {
+      width: 107px;
       height: 60px;
-      
+
       order: 0;
-      div:nth-child(1){
-        width: 107px;
-        height: 60px;
-
-        order: 0;
-      }
-
-      div:nth-child(2){
-        width: 138px;
-        height: 26px;
-
-        order: 1;
-      }
     }
 
-    div img:nth-child(1){
-        order: 1;
-    }
+    div:nth-child(2) {
+      width: 138px;
+      height: 26px;
 
-    &:nth-child(3){
-      width: 201px;
+      order: 1;
+    }
+  }
+
+  div img:nth-child(1) {
+    order: 1;
+  }
+
+  &:nth-child(3) {
+    width: 201px;
+    height: 60px;
+
+    order: 2;
+
+    div:nth-child(1) {
+      width: 54px;
       height: 60px;
 
-      order: 2;
-      div:nth-child(1){
-        width: 54px;
-        height: 60px;
-
-        order: 0;
-      }
-
-      div:nth-child(2){
-        width: 135px;
-        height: 26px;
-
-        order: 1;
-      }
+      order: 0;
     }
 
-    div img:nth-child(2){
-      order: 3;
-    }
+    div:nth-child(2) {
+      width: 135px;
+      height: 26px;
 
-    &:nth-child(5){
-      width: 177px;
+      order: 1;
+    }
+  }
+
+  div img:nth-child(2) {
+    order: 3;
+  }
+
+  &:nth-child(5) {
+    width: 177px;
+    height: 60px;
+
+    order: 4;
+
+    div:nth-child(1) {
+      width: 54px;
       height: 60px;
 
-      order: 4;
-      div:nth-child(1){
-        width: 54px;
-        height: 60px;
-
-        order: 0;
-      }
-
-      div:nth-child(2){
-        width: 111px;
-        height: 26px;
-
-        order: 1;
-      }
+      order: 0;
     }
 
-    div img:nth-child(3){
+    div:nth-child(2) {
+      width: 111px;
+      height: 26px;
+
+      order: 1;
+    }
+  }
+
+  div img:nth-child(3) {
     order: 5;
   }
 
-  &:nth-child(7){
+  &:nth-child(7) {
     width: 176px;
     height: 60px;
 
     order: 6;
-    div:nth-child(1){
+
+    div:nth-child(1) {
       width: 27px;
       height: 60px;
 
       order: 0;
     }
 
-    div:nth-child(2){
+    div:nth-child(2) {
       width: 137px;
       height: 26px;
 

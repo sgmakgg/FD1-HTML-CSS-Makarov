@@ -114,8 +114,10 @@
     line-height: 52px;
     color: #F75E05;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
+    align-content: center;
+    justify-content: center;
     letter-spacing: 0.5px;
     margin-left: auto;
     margin-right: auto;
@@ -152,8 +154,10 @@
     font-size: 0.7vw;
     line-height: 52px;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    text-align: justify;
+    align-content: center;
+    justify-content: center;
     letter-spacing: 0.5px;
     margin-left: auto;
     margin-right: auto;
@@ -178,7 +182,8 @@
   position: absolute;
   width: 64.1145833333%;
   height: 60px;
-  left: 17.97vw;
+  left: 15vw;
+  right: 17vw;
   top: 940px; }
   .statistic div:nth-child(odd) {
     display: flex;

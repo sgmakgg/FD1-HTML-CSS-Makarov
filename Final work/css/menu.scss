@@ -1,40 +1,175 @@
 @import 'variables';
 
-  .navbar {
-    position: absolute;
-    width: percentage(1230px/1920px); //1230px
-    height: percentage(52px/8765px); //52px;
-    left: 17.97vw;
-    top: 20px;
+.navbar {
+  position: absolute;
+  width: percentage(1230px/1920px); //1230px
+  height: percentage(52px/8765px); //52px;
+  left: 17.97vw;
+  top: 20px;
+}
+
+.logo {
+  position: absolute;
+  width: percentage(130px/1230px); //130px
+  //height: 22px;
+  left: 0;
+  top: calc(50% - 22px / 2);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 40px;
+
+  position: absolute;
+  width: percentage(432px/1230px); //432px;
+  //height: 26px;
+  left: 9.9vw;
+  top: calc(50% - 26px / 2);
+
+  & a {
+    text-decoration: none;
+    color: #424551;
   }
 
-  .logo {
-    position: absolute;
-    width: percentage(130px/1230px); //130px
-    //height: 22px;
-    left: 0;
-    top: calc(50% - 22px / 2);
+  div {
+    font-family: $family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8vw;
+    line-height: 160%;
+
+    display: flex;
+    align-items: center;
+
+    color: #424551;
+
+    flex: none;
+    align-self: flex-start;
+    flex-grow: 0;
   }
 
-  .menu {
+  div:nth-child(1) {
+    width: percentage(67px/432px); //67px;
+    //height: 26px;
+    order: 0;
+  }
+
+  div:nth-child(2) {
+
+    width: percentage(58px/432px); //58px;
+    //height: 26px;
+
+    order: 1;
+  }
+
+  div:nth-child(3) {
+    width: percentage(49px/432px); //49px;
+    //height: 26px;
+
+    order: 2;
+  }
+
+  div:nth-child(4) {
+    width: percentage(33px/432px); //33px;
+    //height: 26px;
+
+    order: 3;
+  }
+
+  div:nth-child(5) {
+    width: percentage(65px/432px); //65px;
+    //height: 26px;
+
+    order: 4;
+  }
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 36px;
+
+  position: absolute;
+  width: percentage(386px/1230px); //386px;
+  height: 100%;
+  right: 0;
+  top: calc(50% - 52px / 2);
+
+  .menu_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    gap: 10px;
+
+    width: percentage(207px/386px); //207px;
+    height: 100%; //52px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    border-style: none;
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+
+
+    span {
+      width: 100%; //127px;
+      height: 100%;
+
+      font-family: $family;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.76vw;
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.5px;
+
+      color: #FFFFFF;
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+
+  .menu_button:hover {
+    transition-duration: 1s;
+    background: none;
+    border: 1px solid #F75E05;
+
+    span {
+      color: #F75E05;
+    }
+  }
+
+  .account {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 0;
-    gap: 40px;
+    gap: 8px;
 
-    position: absolute;
-    width: percentage(432px/1230px); //432px;
-    //height: 26px;
-    left: 9.9vw;
-    top: calc(50% - 26px / 2);
+    width: percentage(143px/386px);;
+    height: 50%;
 
-    & a{
-      text-decoration: none;
-      color: #424551;
-    }
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
 
-    div {
+    a {
+      width: 100%;
+      height: 100%;
+
       font-family: $family;
       font-style: normal;
       font-weight: 700;
@@ -46,144 +181,10 @@
 
       color: #424551;
 
-      flex: none;
-      align-self: flex-start;
-      flex-grow: 0;
-    }
-
-    div:nth-child(1) {
-      width: percentage(67px/432px); //67px;
-      //height: 26px;
-      order: 0;
-    }
-
-    div:nth-child(2) {
-
-      width: percentage(58px/432px); //58px;
-      //height: 26px;
-
-      order: 1;
-    }
-
-    div:nth-child(3) {
-      width: percentage(49px/432px); //49px;
-      //height: 26px;
-
-      order: 2;
-    }
-
-    div:nth-child(4) {
-      width: percentage(33px/432px); //33px;
-      //height: 26px;
-
-      order: 3;
-    }
-
-    div:nth-child(5) {
-      width: percentage(65px/432px); //65px;
-      //height: 26px;
-
-      order: 4;
-    }
-  }
-
-  .cta {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0;
-    gap: 36px;
-
-    position: absolute;
-    width: percentage(386px/1230px);//386px;
-    height: 100%;
-    right: 0;
-    top: calc(50% - 52px / 2);
-
-    .menu_button {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0 40px;
-      gap: 10px;
-
-      width: percentage(207px/386px); //207px;
-      height: 100%; //52px;
-      background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-      border-radius: 4px;
-      border-style: none;
-
-      flex: none;
-      order: 0;
-      align-self: center;
-      flex-grow: 0;
-
-
-      span {
-        width: 100%; //127px;
-        height: 100%;
-
-        font-family: $family;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 0.76vw;
-
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.5px;
-
-        color: #FFFFFF;
-
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-      }
-    }
-
-    .menu_button:hover {
-      transition-duration: 1s;
-      background: none;
-      border: 1px solid #F75E05;
-      span{
-        color: #F75E05;
-      }
-    }
-
-    .account {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding: 0;
-      gap: 8px;
-
-      width: percentage(143px/386px);;
-      height: 50%;
 
       flex: none;
       order: 1;
-      align-self: center;
       flex-grow: 0;
-
-      a {
-        width: 100%;
-        height: 100%;
-
-        font-family: $family;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 0.8vw;
-        line-height: 160%;
-
-        display: flex;
-        align-items: center;
-
-        color: #424551;
-
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-      }
     }
   }
+}
