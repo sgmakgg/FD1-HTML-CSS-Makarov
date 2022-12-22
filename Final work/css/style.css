@@ -1131,12 +1131,12 @@ body {
   max-width: 1920px;
   width: 100%;
   min-height: 8765px;
-  height: 100%; }
+  height: 100%;
+  overflow-x: hidden; }
 
 .homepage {
   position: absolute;
   width: 100%;
   height: 1080px;
   background: #FFFFFF; }
-
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-@import 'menu', 'cta';
+@import 'menu';
 @import 'header', 'background';
 @import 'about', 'variables';
 @import 'courseshp', 'benefits';
@@ -10,6 +10,7 @@ body {
   width: 100%;
   min-height: 8765px;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .homepage {
